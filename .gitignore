@@ -1,0 +1,12 @@
+# Node
+node_modules/
+dist/
+.env
+.DS_Store
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+appsettings.Development.json
