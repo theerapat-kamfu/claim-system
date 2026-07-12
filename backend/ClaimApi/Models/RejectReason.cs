@@ -11,6 +11,6 @@ namespace ClaimApi.Models
         public int ReasonId { get; set; }
 
         [Column("reason_name")]
-        public string ReasonName { get; set; }
+        public string? ReasonName { get; set; }
     }
 }

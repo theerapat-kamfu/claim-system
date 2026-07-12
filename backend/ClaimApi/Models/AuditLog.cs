@@ -27,9 +27,9 @@ namespace ClaimApi.Models
         public JsonDocument? NewValue { get; set; }
 
         [Column("table_name")]
-        public string TableName { get; set; }
+        public string? TableName { get; set; }
 
         [Column("action")]
-        public string Action { get; set; }
+        public string? Action { get; set; }
     }
 }

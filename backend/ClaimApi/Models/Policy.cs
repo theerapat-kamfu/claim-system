@@ -17,6 +17,6 @@ namespace ClaimApi.Models
         public bool IsActive { get; set; }
 
         [Column("policy_number")]
-        public string PolicyNumber { get; set; }
+        public string? PolicyNumber { get; set; }
     }
 }

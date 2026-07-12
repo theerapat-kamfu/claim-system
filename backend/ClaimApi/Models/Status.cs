@@ -11,6 +11,6 @@ namespace ClaimApi.Models
         public int StatusId { get; set; }
 
         [Column("status_name")]
-        public string StatusName { get; set; }
+        public string? StatusName { get; set; }
     }
 }

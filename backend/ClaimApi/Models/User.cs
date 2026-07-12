@@ -11,9 +11,9 @@ namespace ClaimApi.Models
         public int UserId { get; set; }
 
         [Column("username")]
-        public string Username { get; set; }
+        public string? Username { get; set; }
 
         [Column("role")]
-        public string Role { get; set; }
+        public string? Role { get; set; }
     }
 }

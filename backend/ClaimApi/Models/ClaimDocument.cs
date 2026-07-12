@@ -14,6 +14,6 @@ namespace ClaimApi.Models
         public int ClaimId { get; set; }
 
         [Column("file_url")]
-        public string FileUrl { get; set; }
+        public string? FileUrl { get; set; }
     }
 }

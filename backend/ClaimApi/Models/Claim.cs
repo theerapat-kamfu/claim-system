@@ -19,6 +19,8 @@ namespace ClaimApi.Models
         [Column("reject_reason_id")]
         public int? RejectReasonId { get; set; }
 
+        [Required] 
+        [Range(0, 1000000)] 
         [Column("claim_amount")]
         public decimal ClaimAmount { get; set; }
 
